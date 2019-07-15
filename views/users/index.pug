@@ -1,0 +1,23 @@
+extends ../layouts/common
+
+block content
+  h1 
+    span(class="mr-3") Users
+    a(href="/users/create", class="btn btn-primary") New
+
+  .d-flex.align-items-center
+    form(action="/users/search", method="GET", class="d-flex ml-auto")
+        input(id="input", type="text", name="q", placeholder="Searching...", class="form-control", style="width:500px")
+        button(class="btn btn-danger ml-2", style="width: 100px") Search
+
+  table(class="table")
+    tr
+      th Name
+      th Phone
+      th Actions
+    each user in users
+      tr
+          td= user.name
+          td= user.phone
+          td
+            a(href='/users/' + user.id, class="btn btn-light") View

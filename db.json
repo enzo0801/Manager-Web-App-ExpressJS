@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Dung",
+      "phone": "0933636672",
+      "id": "YGWmpeG0t",
+      "email": "vodung0801@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Khanh",
+      "id": "LTh01-v_k"
+    },
+    {
+      "name": "Enzo",
+      "id": "1MM8gK6bU"
+    },
+    {
+      "name": "Hải",
+      "phone": "123456",
+      "id": "NH5cXNCgf"
+    }
+  ]
+}
